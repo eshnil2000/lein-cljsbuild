@@ -1,5 +1,7 @@
 # lein-cljsbuild
 
+#### Use docker container eshnil2000/clojurescript
+
 #### Latest version:
 [![Clojars Project](https://clojars.org/lein-cljsbuild/latest-version.svg)](http://clojars.org/lein-cljsbuild)
 
