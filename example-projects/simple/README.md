@@ -13,7 +13,9 @@ Set up and start the server like this:
 
     $ cd example-projects/simple
     $ lein cljsbuild once
-    $ lein ring server-headless 3000
+    $ ===SKIP THIS lein ring server-headless 3000 ===
+    $ copy index.html Add index.html under /resources/public/js after compilation of the code
+    $ cd /resources/public/js & live-server --port=3000 
 
 Now, point your web browser at `http://localhost:3000`, and see the web app in action!
 
