@@ -1,6 +1,9 @@
 # lein-cljsbuild
 
 #### Use docker container eshnil2000/clojurescript
+** This container has ready to run example project "simple"
+** ```docker run -p 3000:3000 -it eshnil2000/clojurescript /bin/bash```
+** inside the container: ```cd /home/lein-cljsbuild/example-projects/simple/ ```
 
 #### Latest version:
 [![Clojars Project](https://clojars.org/lein-cljsbuild/latest-version.svg)](http://clojars.org/lein-cljsbuild)
